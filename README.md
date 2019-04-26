@@ -1,2 +1,0 @@
-# VideosGraphicArtTutoHtmlCss
-Created with CodeSandbox
