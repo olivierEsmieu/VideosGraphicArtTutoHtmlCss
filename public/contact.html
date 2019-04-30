@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>contact</title>
+    <style></style>
+  </head>
+  <body>
+    <h1>Nous contacter</h1>
+    <nav>
+      <ul>
+        <a href="index.html" title="index">
+          <li>Index</li>
+        </a>
+        <a href="menu.html" title="menu">
+          <li>Menu</li>
+        </a>
+        <a href="contact.html" title="contact">
+          <li>Contact</li>
+        </a>
+      </ul>
+    </nav>
+    <form action="contact.html">
+      <fieldset>
+        <legend>Nous contacter</legend>
+        <div>
+          <label for="emailinput">Votre email</label>
+          <input
+            type="text"
+            name="email"
+            id="emailinput"
+            placeholder="dr"
+            value="dr"
+            required
+          />
+        </div>
+        <div>
+          <label for="nameinput">Votre nom</label>
+          <input type="text" id="nameinput" value="dr" />
+        </div>
+        <div>
+          <label>Votre sexe</label>
+          <label for="masculin"></label>
+          <input type="radio" id="masculin" name="sexe" checked />
+          <label for="feminin"></label>
+          <input type="radio" id="feminin" name="sexe" />
+        </div>
+        <div>
+            <select name="sexe" id="selectsexe" multiple>
+                <option value="masculin">masculin</option>
+                <option value="feminin">feminin</option>
+            </select>
+        </div>
+        <div>
+          <label for="fileinput"></label>
+          <input type="file" name="file" id="fileinput" />
+        </div>
+        <div>
+          <label for="textelong">votre message</label>
+          <textarea id="textelong" name="message" cols="30" rows="2" placeholder="votre message" /></textarea>
+        </div>
+        <button type="submit">envoyer</button> 
+        <input type="reset" value="annuler" />
+      </fieldset>
+    </form>
+    <!-- <button >envoyer </button> -->
+  </body>
+</html>
